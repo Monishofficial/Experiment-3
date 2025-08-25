@@ -14,7 +14,36 @@
 7. Stop the program. 
 
 ## Program
+#### NAME: MONISH N
+#### REG NO: 212223240097
+```
+num = input("Enter a number: ")  
+flag = 0  
 
+if num.isnumeric():  
+    z = int(num)  
+
+    if z == 2:  
+        flag = 1  
+    elif z > 2:  
+        for i in range(2, z // 2 + 1):  # Loop should include z//2
+            if z % i == 0:  
+                flag = 0  
+                break  
+        else:  
+            flag = 1  
+
+    if flag == 1:  
+        print("Prime Number")  
+    else:  
+        print("Not a Prime Number")  
+
+else:  
+    print("Enter a Positive Number")
+
+```
 ## Output
+<img width="692" height="174" alt="image" src="https://github.com/user-attachments/assets/bde20c37-28fc-4161-9aaf-54c945e4168e" />
 
 ## Result
+Thus, the python program to check the number is prime or not and inspect for failures is executed successfully.
