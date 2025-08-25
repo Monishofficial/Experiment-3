@@ -1,9 +1,10 @@
 # Experiment-3
+
 ## PRIME NUMBER OR NOT
 
-# Aim: Write a python program to check the number is prime or not and inspect for failures. 
+## Aim: Write a python program to check the number is prime or not and inspect for failures. 
 
-# Algorithm
+## Algorithm
 1. Start the program.
 2. Get the number to be checked from the user.
 3. If the number is less than or equal to 1, return "Not Prime".
